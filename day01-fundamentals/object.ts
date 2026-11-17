@@ -13,6 +13,7 @@ let user: {
 };
 
 console.log(user);
-// Union Ty
+// Union Type
 let value: string | number = "hello";
 value = 42;
+console.log(value);
