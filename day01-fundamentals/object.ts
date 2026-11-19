@@ -17,3 +17,12 @@ console.log(user);
 let value: string | number = "hello";
 value = 42;
 console.log(value);
+
+type Statas = "active" | "inactive" | "pending";
+let userStatus: Statas = "active";
+console.log(userStatus);
+let value2: unknown = "Bayjid";
+
+if (typeof value2 === "string") {
+  console.log(value2.toUpperCase());
+}
